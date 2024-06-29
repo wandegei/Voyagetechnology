@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61" height="61" viewBox="0 0 61 61">
+  <defs>
+    <filter id="Polygon_1" x="0" y="0" width="61" height="61" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_13917" data-name="Group 13917" transform="translate(-6412.947 984.946) rotate(-90)">
+    <g transform="matrix(0, 1, -1, 0, 984.95, 6412.95)" filter="url(#Polygon_1)">
+      <path id="Polygon_1-2" data-name="Polygon 1" d="M30.406,0,43,12.594V30.406L30.406,43H12.594L0,30.406V12.594L12.594,0Z" transform="translate(9 49) rotate(-90)" fill="#def3f5"/>
+    </g>
+    <path id="Icon_ionic-md-arrow-dropright" data-name="Icon ionic-md-arrow-dropright" d="M13.5,9,26.442,21.942,13.5,34.883l3.734-12.942Z" transform="translate(939.189 6422.361)" fill="#0a5055"/>
+  </g>
+</svg>

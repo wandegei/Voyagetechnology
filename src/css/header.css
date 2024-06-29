@@ -1,0 +1,248 @@
+.header {
+    top: 0;
+    z-index: 9999;
+    background-color: transparent;
+    background-color: #02a2ac;
+    position: fixed;
+    width: 100%;
+}
+
+.bread-crumb {
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header-logo-img {
+    width: 180px;
+}
+.handle-header {
+    font-size: 14px;
+}
+.bread-crumb .media .media-icon img {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    
+}
+
+.elem {
+    line-height: 15px;
+    color: white;
+    font-size: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.social-icons span {
+    cursor: pointer;
+}
+
+.bread-crumb .social-icons span {
+    padding: 3px;
+}
+
+.navbar ul li.nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navbar ul li.nav-item {
+    border-bottom: 2px solid transparent;
+}
+.navbar ul li.nav-item:hover {
+    border-bottom: 2px solid #4DBBBD;
+    transition-duration: 0.2s;
+    transition-property: border-bottom;
+    transition: all ease-in-out 0.4s;
+}
+
+.navbar ul li.nav-item .nav-link:hover {
+    color: #4DBBBD;
+}
+.navbar .megamenu {
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 0;
+}
+
+/* .navbar-fixed {
+    padding-left: 10%;
+    padding-right: 10%;
+    z-index: -1;
+    background-color: white;
+} */
+
+.navbar-sticky {
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+/* logo style */
+.navbar .navbar-brand {
+    width: 80px;
+    height: 50px;
+}
+
+.navbar .navbar-brand img {
+    width: 100%;
+    height: 338%;
+    transform: scale(1.2, 1.2);
+    margin-left: 10%;
+    cursor: pointer;
+    padding-bottom: 77%;
+  }
+
+.navbar .mobile {
+    display: none;
+}
+
+/* end logo */
+
+/* .main-contents {
+    position: relative;
+    z-index: -4;
+    background-color: #02a2ac;
+} */
+
+.header-service .sect {
+    margin: 1% 2%;
+    width: 30%;
+}
+
+.header-service .image {
+    margin: 10px;
+    height: 95%;
+}
+
+.header-service .image img {
+    height: 100%;
+    width: 100%;
+}
+
+.header-service .sect .text {
+    font-size: 11px;
+}
+
+.header-service .sect h4 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.header-service .sect .icon img {
+    width: 20px;
+    height: auto;
+}
+
+.header-service-2 {
+    width: 81vw;
+    margin-left: -22vw;
+}
+
+button.get-btn {
+    background-color: #4DBBBD;
+    outline: none;
+}
+
+.mobile-toggle-btn {
+    display: none;
+    outline: 0px;
+    border: 0px;
+    background-color: #fff;
+}
+.mobile-toggle-btn:focus {
+    outline: 0px;
+    border: 0px;
+}
+
+/* to be used for reference */
+.nav-link[data-toggle].collapsed:after {
+    content: " ▾";
+}
+.nav-link[data-toggle]:not(.collapsed):after {
+    content: " ▴";
+}
+
+@media screen and (max-width: 992px) {
+    .header {
+        background-color: #fff;
+        width: 100%;
+        position: fixed;
+    }
+
+    .fist-header {
+        display: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    button.get-btn {
+        font-size: 12px;
+        margin-left: auto;
+        background-color:#4DBBBD;
+    }
+
+    .navbar .navbar-brand {
+        width: 80px;
+        height: 50px;
+    }
+
+    .navbar .desktop {
+        display: none;
+    }
+
+    .navbar .mobile {
+        display: block;
+    }
+
+    .bread-crumb,
+    .navbar-nav {
+        display: none;
+        padding: 0;
+    }
+
+    .navbar-sticky {
+        margin: 0;
+        border-radius: 0;
+    }
+    .mobile-toggle-btn {
+        display: block;
+    }
+}
+
+/* mobile menu */
+
+.menu-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    padding: 10px;
+    background-color: white;
+    z-index: 999;
+}
+
+.menu-overlay .media-icons {
+    position: absolute;
+    bottom: 20px;
+}
+
+.menu-overlay .media-icons a {
+    padding: 5px;
+}
+
+@media only screen and (max-width: 767px) {
+    .menu-overlay .nav > a {
+        font-size: 1.2em;
+        color: #000;
+    }
+}

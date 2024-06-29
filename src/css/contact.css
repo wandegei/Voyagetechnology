@@ -1,0 +1,155 @@
+.contact-banner {
+    background-color:   #1A3660;
+    background-repeat: no-repeat;
+    background-size: 100% 820px;
+    background-position: cover;
+}
+
+@media (min-width: 600px) {
+    .contact-banner {
+        background-color:   #1A3660;
+        background-size: 100% 100vh;
+    }
+}
+
+.text-contact {
+    font-family: 'Lufga', sans-serif;
+    font-size: 1.3rem;
+}
+
+.do-text {
+    max-width: 387px;
+}
+
+.social-container {
+    max-width: 500px;
+}
+
+.icon-div {
+    margin-bottom: 2rem;
+}
+
+.icon-div a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.social-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 25px;
+}
+
+.form-social-container {
+    display: flex;
+    flex-direction: column;
+    margin: 4rem 0;
+}
+
+.form-social-container,
+.icon-cont {
+    margin-top: 4rem;
+}
+
+
+.contact-form-section {
+    left: 969px;
+    top: 1149px;
+    padding: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px 4px rgba(200, 200, 200, 0.25);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+textarea {
+    padding: 5px;
+    margin-bottom: 2rem;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+/* input {
+    height: 54px;
+} */
+
+textarea {
+    height: 243px;
+}
+
+.contact-btn {
+    height: 46px;
+    background: #02A2AC;
+    border: 1px solid #02A2AC;
+    border-radius: 5px;
+    font-family: 'Lufga', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+
+
+.contact-btn:disabled {
+    background-color: rgba(2, 162, 172, 0.5);
+    border: none;
+}
+
+@media(min-width:768px) {
+    .contact-form-section {
+        width: 600px;
+    }
+    .form-social-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+}
+
+.office-title-container {
+    max-width: 664px;
+    margin: 2rem auto 4rem;
+    text-align: center;
+}
+
+.office-div {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 253px;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.office-title {
+    font-family: 'Lufga', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    color: #02A2AC;
+}
+
+.office-container {
+    max-width: 700px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.country-flag {
+    margin-right: 1rem;
+}
+
+@media (min-width:600px) {
+    .office-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .office-div {
+        width: 272px;
+    }
+}

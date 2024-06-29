@@ -1,0 +1,80 @@
+.notfound {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 5%;
+    margin-top: -110px;
+}
+
+
+.image-cat {
+    height: 60vh;
+    margin-top: -50px;
+}
+
+@media (min-width:769px) {
+   .notfound {
+        flex-direction: row;
+        align-items: center;
+   }
+   .image-cat {
+        height: 100%;
+        width: 50%;
+        margin-top: 100px;
+    }
+}
+
+.not-oops {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.not-sorry {
+    font-weight: 600;
+}
+
+@media(min-width:769px){
+    .not-oops{
+        font-size: 2rem;
+    }
+    .not-sorry {
+        font-size: 1.5em;
+    }
+}
+
+.not-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.not-btn button {
+    margin-bottom: 10px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.not-btn button:first-child {
+    background: #3EB971;
+    border: 1px solid #3EB971;
+}
+
+.not-btn button:last-child {
+    background: #F7B618;
+    border: 1px solid #F7B618;
+}
+
+@media (min-width:769px) {
+    .not-btn {
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .not-btn button {
+       width: 300px;
+       margin: 10px;
+    }
+}

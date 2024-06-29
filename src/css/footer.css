@@ -1,0 +1,290 @@
+.top-footer {
+    background-color: #4DBBBD;
+}
+
+.subscribe-area {
+    background-color: #def3f5;
+    padding-top: 30px;
+    padding-bottom: 19px;
+}
+
+.footer-policy-lines {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.footer-pointer {
+    cursor: pointer;
+}
+
+.subscribe-text h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0;
+    margin-top: 6px;
+}
+
+.subscribe-text {
+    margin-bottom: 20px;
+}
+
+.newsletter .form-group {
+    float: left;
+}
+
+.newsletter .submit-btn {
+    display: inline;
+    float: right;
+    margin: -80px -100px;
+}
+
+.newsletter .submit-btn img {
+    width: 45px;
+    height: 45px;
+}
+
+.newsletter .submit-btn img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.newsletter .form-group input.form-control:focus {
+    outline: none;
+}
+
+.newsletter .form-group input {
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: #1A3660;
+    padding: 10px 15px;
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 105%;
+}
+
+.newsletter .form-group input::placeholder {
+    color: #fff;
+}
+
+.subscribe2-wrapper .subscribe-form button i {
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.footer {
+    background-color: #45A0A0;
+}
+
+.footer .footer-logo {
+    width: 75%;
+    height: auto;
+    margin-bottom: 5px;
+}
+
+.footer .footer-logo img {
+    width: 102%;
+    height: 100%;
+    
+}
+
+.footer .heading {
+    padding-top: 10%;
+    padding-bottom: 2%;
+    color: #a0f1ea;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer p.card-text {
+    color: #fff;
+    font-size: 11.5px;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer ul > li {
+    padding: 5px 0px;
+    color: #fff;
+    font-size: 13.5px;
+    display: flex;
+}
+
+.footer ul > li:hover {
+    color: #d0d8da;
+    cursor: pointer;
+}
+
+.footer ul > li div.icon img {
+    border-radius: 2px;
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+
+.footer .footer-card {
+    padding: 5% 0;
+    background-color: #45A0A0;
+}
+
+.footer .sect {
+    width: 25%;
+    display: inline;
+}
+
+.footer .sect1 {
+    width: 31%;
+}
+
+.footer .sect2 {
+    width: 20%;
+    margin-left: 20px;
+}
+
+.footer .sect4 {
+    width: 20%;
+}
+
+.footer .policy > div {
+    padding: 4px;
+    font-size: 15px;
+    float: right;
+}
+
+.footer .divider {
+    border-top: 1px solid #fff;
+}
+
+.footer .lower .copyright p {
+    text-align: left;
+}
+
+.footer .lower .items {
+    float: right;
+}
+
+.footer .angleright {
+    display: none;
+}
+
+.footer-input {
+    border-left: 1px solid white;
+    border-radius: 0px;
+}
+
+.floating-div-container-footer {
+    position: fixed;
+    right: 0px;
+    cursor: pointer;
+    bottom: 30px;
+    display: none;
+}
+.back-wording-footer {
+    display: none;
+    font-size: 12px;
+}
+
+.floating-div-container-footer:hover .back-wording-footer {
+    display: block;
+}
+
+.floating-div-child-footer {
+    display: flex;
+    width: 110px;
+    height: 40px;
+    border-radius: 8px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-item-footer {
+    margin-top: -22px;
+}
+
+@media screen and (max-width: 992px) {
+    .subscribe-form .formgroup2 {
+        padding-bottom: 20px;
+    }
+
+    .subscribe-text h2 {
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-bottom: 0;
+        margin-top: 6px;
+        padding-left: 30px;
+    }
+
+    .footer .heading {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        color: #a0f1ea;
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .footer-container {
+        margin-left: -45px;
+    }
+
+    .form-item-footer {
+        margin-top: 0px;
+    }
+    .subscribe-text {
+        margin-bottom: 0px;
+    }
+
+    .footer-card {
+        margin-left: -5%;
+    }
+    .footer .sect {
+        width: 100%;
+        display: block;
+        margin-top: 0px;
+    }
+    .footer .sect2 {
+        margin-left: 0px;
+    }
+
+    .footer-text {
+        display: none;
+    }
+
+    .footer .lower .copyright p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .footer .lower .items {
+        float: none;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer .angleright {
+        display: block;
+        float: right;
+        margin-left: auto;
+    }
+
+    .mobile-toggle {
+        display: none;
+    }
+}
+
+.anchor_tag {
+    text-decoration: none;
+    color: white;
+}
+
+.anchor_tag:hover {
+    color: #1A3660;
+    cursor: pointer;
+}
+

@@ -1,0 +1,152 @@
+.service-banner {
+    background-color: #1A3660;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: cover;
+    width: 100%;
+}
+
+
+.service-banner .banner-content {
+    padding-top: 16%;
+    padding-bottom: 18%;
+}
+
+.service-banner .banner-content .image {
+    margin-left: auto;
+    width: 50%;
+}
+.service-banner .quicklist {
+    position: relative; 
+    top: 60px;
+}
+
+.banner-content .image img {
+    width: 85%;
+    display: flex;
+    margin-left: auto;
+}
+
+.service-banner .banner-content .contents {
+    margin-top: -25%;
+    margin-right: auto;
+    width: 50%;
+    margin-left: 25px;
+    color: #fff;
+    display: flex;
+}
+
+
+.banner-content .contents div {
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.banner-content .contents h4 {
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Lufga', sans-serif;
+}
+
+.banner-content .contents p {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.banner-content button.btn {
+    background-color: #4DBBBD;
+    color: #fff;
+}
+
+.banner-content button.btn:hover {
+
+    transform: scale(1.05,1.05);
+}
+
+.services {
+    margin-top: 200px;
+    margin-bottom: 6rem;
+}
+
+.services>div {
+    margin-top: 5rem;
+}
+
+.services h2 {
+    font-size: 2rem;
+    font-family: 'Lufga', sans-serif;
+    line-height: 45px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
+.services h2 span {
+    color: blueClients;
+}
+
+.services .text {
+    font-family: 'Lufga', sans-serif;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+
+.services button {
+    background-color: #4DBBBD;
+    color: #fff;
+}
+.services button:hover, 
+.services button:focus {
+    color: #eee;
+    transform: scale(1.05,1.05);
+}
+
+.services .image {
+    width: 100%;
+
+}
+
+.services .image img {
+    width: 100%;
+    /* margin-left: 20%; */
+
+}
+.services .image img.digitalcontent {
+    width: 90%;
+    margin-left: 5%;
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .service-banner .banner-content .image {
+        margin-left: 0;
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .service-banner .banner-content .image img {
+        width: 100%;
+    }
+
+
+    .service-banner .banner-content .contents {
+        margin-top: 10%;
+        margin-right: auto;
+        width: 96%;
+    }
+
+    .services .image {
+        width: 100%;
+
+    }
+
+    .services .image img {
+        width: 100%;
+        margin-left: 0%;
+        margin: 20px 2px;
+
+    }
+
+}

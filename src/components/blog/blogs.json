@@ -1,0 +1,28 @@
+{
+    "blog": [
+        {
+            "id": 1,
+            "category": "technology",
+            "description": "How to Create a Winning Digital Transformation Strategy That Works",
+            "date": "January 25, 2023",
+            "owner": "Dr. Ben Mooya",
+            "coverimage": "https://res.cloudinary.com/dxcwl0how/image/upload/v1683081220/tallen/d-1_rwpryn.png"
+        },
+        {
+            "id": 2,
+            "category": "technology",
+            "description": "Best Practices for Responsive Web Development in 2023",
+            "date": "January 25, 2023",
+            "owner": "Dr. Ben Mooya",
+            "coverimage": "https://res.cloudinary.com/dxcwl0how/image/upload/v1683081247/tallen/r-1_yz0him.png"
+        },
+        {
+            "id": 3,
+            "category": "technology",
+            "description": "The Top 10 Trends and Predictions for 2024 and Beyond",
+            "date": "January 25, 2023",
+            "owner": "Dr. Ben Mooya",
+            "coverimage": "https://res.cloudinary.com/dxcwl0how/image/upload/v1683081232/tallen/p-1_dde633.png"
+        }
+    ]
+}
