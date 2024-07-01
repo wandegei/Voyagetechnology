@@ -16,22 +16,22 @@ const Service = () =>{
 
     
     
-        if (status == 1) {
+        if (status === 1) {
           window.location.href = '#ui-ux';
         }
-        if (status == 2) {
+        if (status === 2) {
           window.location.href = '#web-dev';
         }
-        if (status == 3) {
+        if (status === 3) {
           window.location.href = '#mobile-dev';
         }
-        if (status == 4) {
+        if (status === 4) {
           window.location.href = '#web-app-management';
         }
-        if (status == 5) {
+        if (status === 5) {
           window.location.href = '#web-app-content';
         }
-        if (status == 6) {
+        if (status === 6) {
             window.location.href = '#digital-marketing';
           }
       });

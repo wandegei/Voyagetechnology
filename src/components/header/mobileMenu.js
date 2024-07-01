@@ -14,7 +14,7 @@ const MobileMenu = () => {
   };
 
   const redirectSocial = status => {
-    if (status == 1) {
+    if (status === 1) {
       window.open ('', '_blank').focus ();
       return;
     }
