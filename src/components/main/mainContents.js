@@ -9,7 +9,6 @@ import TechStack from './techStack';
 import Testimonial from './testimonials';
 import WhoWeAre from './whoWeAre';
 import WhyTailored from './whyTailored';
-import Slide from './slides.js';
 import WhyTallen from './whyTallen';
 import YourIdeas from './yourIdeas';
 
@@ -21,7 +20,6 @@ const MainContent = () => {
       <GetStarted />
       <Services />
       <WhyTailored />
-      <Slide />
       <HowWeWork />
       <IndustryExpertise />
       {

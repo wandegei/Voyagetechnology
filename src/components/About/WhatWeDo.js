@@ -9,7 +9,7 @@ const WhatWeDo = () => {
                     <div className='digital-el'>
                         <h4 className='about-section-title'>WHAT WE DO</h4>
                         <h2 className='middle-title'>Voyage offers a <span>comprehensive</span> range</h2>
-                        <p>of digital services to help businesses establish and strengthen their online presence. From web development to mobile app development, UI/UX design to SEO, we have you covered.</p>
+                        <p>of digital services to help businesses establish and strengthen their online presence. From web development to mobile app development, design to SEO, we have you covered.</p>
                     </div>
                     <img src={wedo} alt='mission' className='abt-img' />
                 </div>

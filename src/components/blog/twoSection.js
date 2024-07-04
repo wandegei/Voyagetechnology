@@ -41,7 +41,7 @@ const TwoSection = () => {
                     {/* <div className="categories mt-4">
                         <h4 className="fw-bolder">CATEGORIES</h4>
                         <div className="d-flex">
-                            <div>UI/UX</div>
+                            <div></div>
                             <div className="ms-auto val">(25)</div>
                         </div>
                         <div className="d-flex">

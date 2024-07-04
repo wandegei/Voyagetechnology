@@ -109,7 +109,7 @@ const RequestQuotation = () => {
         <title>Request Quote</title>
         <meta
           name="Request Quote"
-          content="Voyage is a tech business specializing in UI/UX design, web development, mobile app development, and web/app management. Our global team of experts also offers top-notch SEO services and web/app copywriting. With a global perspective and local focus, we prioritize usability, reliability, and innovation to create engaging digital experiences. Let us help you fuel your digital growth and achieve your online potential. Get in touch with us today."
+          content="Voyage is a tech business specializing in Design, web development, mobile app development, and web/app management. Our global team of experts also offers top-notch SEO services and web/app copywriting. With a global perspective and local focus, we prioritize usability, reliability, and innovation to create engaging digital experiences. Let us help you fuel your digital growth and achieve your online potential. Get in touch with us today."
         />
         <link rel="canonical" href="https://.tech/aboutus" />
       </Helmet>
@@ -184,7 +184,7 @@ const RequestQuotation = () => {
                 }}
               >
                 <option value={null}>Select Service</option>
-                <option value={'UI/UX Design'}>UI/UX Design</option>
+                <option value={' Design'}> Design</option>
                 <option value={'Mobile App Development'}>
                   Mobile App Development
                 </option>
@@ -214,10 +214,10 @@ const RequestQuotation = () => {
                 id="ui"
                 {...register ('service', {required: true})}
                 name="service"
-                value="UI/UX Design"
+                value=" Design"
               />
               &emsp;
-              <label for="ui">UI/UX Design</label>
+              <label for="ui"> Design</label>
               {' '}
             </Col>
             <Col md={6}>

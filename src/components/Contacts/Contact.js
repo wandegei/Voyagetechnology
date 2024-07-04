@@ -15,7 +15,7 @@ const Contact = () => {
                 <title>Contact us</title>
                 <meta
                 name="Contact VOYAGE"
-                content="VOYAGE is a tech business specializing in UI/UX design, web development, mobile app development, and web/app management. Our global team of experts also offers top-notch SEO services and web/app copywriting. With a global perspective and local focus, we prioritize usability, reliability, and innovation to create engaging digital experiences. Let us help you fuel your digital growth and achieve your online potential. Get in touch with us today."
+                content="VOYAGE is a tech business specializing in  design, web development, mobile app development, and web/app management. Our global team of experts also offers top-notch SEO services and web/app copywriting. With a global perspective and local focus, we prioritize usability, reliability, and innovation to create engaging digital experiences. Let us help you fuel your digital growth and achieve your online potential. Get in touch with us today."
                 />
                 <link rel="canonical" href="" />
             </Helmet>

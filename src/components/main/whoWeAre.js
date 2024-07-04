@@ -26,7 +26,7 @@ const WhoWeAre = () => {
         </div>
 
         <div className="who-content">
-          VOYAGE specializes in Web Development, Mobile App Development, UI/UX design, Web/App management, and SEO services. Our skilled global team collaborates to deliver user-friendly websites, mobile apps, and digital experiences that drive traffic and enhance online presence. With a unique approach that combines a global perspective and local focus, we provide world-class services that drive positive change for customers and communities.
+          VOYAGE specializes in Web Development, Mobile App Development, design, Web/App management, and SEO services. Our skilled global team collaborates to deliver user-friendly websites, mobile apps, and digital experiences that drive traffic and enhance online presence. With a unique approach that combines a global perspective and local focus, we provide world-class services that drive positive change for customers and communities.
           {' '}
         </div>
 

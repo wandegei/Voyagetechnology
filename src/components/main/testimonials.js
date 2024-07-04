@@ -225,7 +225,7 @@ const Testimonial = () => {
               <div className="testimonial-card">
                 <img src={quotation} className="quotation" alt="slide show" />
                 <div className="quotation-content">
-                We collaborated with VOYAGE on a mobile app redesign and were amazed by the outcome. The team transformed our ideas into a beautiful, user-friendly design that has garnered excellent feedback from our customers. VOYAGE excels in crafting outstanding UI/UX designs, and we highly recommend their services.
+                We collaborated with VOYAGE on a mobile app redesign and were amazed by the outcome. The team transformed our ideas into a beautiful, user-friendly design that has garnered excellent feedback from our customers. VOYAGE excels in crafting outstanding designs, and we highly recommend their services.
                 </div>
                 <div
                   className="testimonial-profile-content"
@@ -253,7 +253,7 @@ const Testimonial = () => {
               <div className="testimonial-card">
                 <img src={quotation} className="quotation" alt="slide show" />
                 <div className="quotation-content">
-                We partnered with VOYAGE to redesign our mobile app and were incredibly impressed with the results. The team took our concepts and transformed them into a beautiful, user-friendly design that has received enthusiastic feedback from our customers. VOYAGE has a true talent for crafting exceptional UI/UX designs, and we highly recommend their services.
+                We partnered with VOYAGE to redesign our mobile app and were incredibly impressed with the results. The team took our concepts and transformed them into a beautiful, user-friendly design that has received enthusiastic feedback from our customers. VOYAGE has a true talent for crafting exceptional designs, and we highly recommend their services.
                 </div>
                 <div
                   className="testimonial-profile-content"
@@ -281,7 +281,7 @@ const Testimonial = () => {
               <div className="testimonial-card">
                 <img src={quotation} className="quotation" alt="slide show" />
                 <div className="quotation-content">
-                  We worked with VOYAGE on a redesign of our mobile app and were blown away by the results. The team was able to take our ideas and turn them into a stunning, user-friendly design that has received rave reviews from our customers. VOYAGE truly has a knack for creating amazing UI/UX designs and we highly recommend them
+                  We worked with VOYAGE on a redesign of our mobile app and were blown away by the results. The team was able to take our ideas and turn them into a stunning, user-friendly design that has received rave reviews from our customers. VOYAGE truly has a knack for creating amazing designs and we highly recommend them
                 </div>
                 <div className="testimonial-profile-content">
                   <div className="profile-testimonial">
@@ -382,7 +382,7 @@ const Testimonial = () => {
               <div className="testimonial-card2">
                 <img src={quotation} className="quotation" alt="slide show" />
                 <div className="quotation-content">
-                  We worked with VOYAGE on a redesign of our mobile app and were blown away by the results. The team was able to take our ideas and turn them into a stunning, user-friendly design that has received rave reviews from our customers. VOYAGE truly has a knack for creating amazing UI/UX designs and we highly recommend them
+                  We worked with VOYAGE on a redesign of our mobile app and were blown away by the results. The team was able to take our ideas and turn them into a stunning, user-friendly design that has received rave reviews from our customers. VOYAGE truly has a knack for creating amazing designs and we highly recommend them
                 </div>
                 <div className="testimonial-profile-content">
                   <div className="profile-testimonial">
@@ -509,7 +509,7 @@ const Testimonial = () => {
               <div className="testimonial-card">
                 <img src={quotation} className="quotation" alt="slide show" />
                 <div className="quotation-content">
-                  We worked with VOYAGE on a redesign of our mobile app and were blown away by the results. The team was able to take our ideas and turn them into a stunning, user-friendly design that has received rave reviews from our customers. VOYAGE truly has a knack for creating amazing UI/UX designs and we highly recommend them
+                  We worked with VOYAGE on a redesign of our mobile app and were blown away by the results. The team was able to take our ideas and turn them into a stunning, user-friendly design that has received rave reviews from our customers. VOYAGE truly has a knack for creating amazing designs and we highly recommend them
                 </div>
                 <div
                   className="testimonial-profile-content"

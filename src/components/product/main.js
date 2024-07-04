@@ -19,7 +19,7 @@ const Main = () => {
           <div>
             <h6 style={{color: 'white'}} className="sub-content-main">
               Unlock Your Potential with the Best Web Development, <br />
-              Mobile App Development, and UI/UX Design for
+              Mobile App Development, and Design for
               {' '}
               <br />
               {' '}
@@ -60,7 +60,7 @@ const Main = () => {
           <div>
             <h6 style={{color: 'white'}}>
               Unlock Your Potential with the Best Web Development,
-              Mobile App Development, and UI/UX Design for Impactful Success.
+              Mobile App Development, and Design for Impactful Success.
             </h6>
           </div>
         </div>

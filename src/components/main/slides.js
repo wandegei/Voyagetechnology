@@ -12,21 +12,21 @@ const Slide = () => {
     };
 
     let timer;
+    const currentRef = videoRefs.current[currentSlide];
 
     if (slides[currentSlide].type === 'video') {
-      const videoElement = videoRefs.current[currentSlide];
-      if (videoElement) {
-        videoElement.play();
-        timer = setTimeout(handleNextSlide, (videoElement.duration || 10) * 1000); // Fallback duration
+      if (currentRef) {
+        currentRef.play();
+        timer = setTimeout(handleNextSlide, (currentRef.duration || 3) * 1000); // Further reduced fallback duration
       }
     } else {
-      timer = setTimeout(handleNextSlide, slides[currentSlide].duration * 1000);
+      timer = setTimeout(handleNextSlide, (slides[currentSlide].duration || 2) * 1000); // Further reduced duration for non-video slides
     }
 
     return () => {
       clearTimeout(timer);
-      if (videoRefs.current[currentSlide]) {
-        videoRefs.current[currentSlide].pause();
+      if (currentRef) {
+        currentRef.pause();
       }
     };
   }, [currentSlide]);
@@ -64,20 +64,20 @@ const Slide = () => {
   return (
     <div className="slide-container">
       <div className="slide-content">{renderSlide(slides[currentSlide], currentSlide)}</div>
-      <button
+      {/* <button
         className="slide-button prev-button"
         onClick={() => setCurrentSlide((prevSlide) => (prevSlide - 1 + slides.length) % slides.length)}
         aria-label="Previous Slide"
       >
         Previous
-      </button>
-      <button
+      </button> */}
+      {/* <button
         className="slide-button next-button"
         onClick={() => setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length)}
         aria-label="Next Slide"
       >
         Next
-      </button>
+      </button> */}
     </div>
   );
 };

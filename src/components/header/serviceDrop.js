@@ -22,7 +22,7 @@ const ServiceDrop = () => {
             </div>
             <div className="pt-2">
               <div className="icon"><img src={Design} alt="" /></div>
-              <div><h4>UX/UX Design</h4></div>
+              <div><h4>Design</h4></div>
               <div className="text">At VOYAGE, we specialize in crafting stunning user interfaces and user experiences for software applications. Our focus is on creating visually appealing, intuitive, and efficient interfaces that drive user engagement and satisfaction</div>
             </div>
           </div>
