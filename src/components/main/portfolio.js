@@ -71,7 +71,7 @@ const Portfolio = () => {
           We look forward to a bright future.
         </div>
         <p style={{textAlign: 'justify'}} className="portfolio-txt">
-          At VOYAGE, we've been fortunate to work on various projects for our valued clients, including UI/UX design, mobile development, web development, and web/app management. Our client-focused approach and skilled teams have allowed us to deliver exceptional services and help our clients reach their goals. Here's a summary of some of our completed projects.
+          At VOYAGE, we've been fortunate to work on various projects for our valued clients, including  design, mobile development, web development, and web/app management. Our client-focused approach and skilled teams have allowed us to deliver exceptional services and help our clients reach their goals. Here's a summary of some of our completed projects.
         </p>
 
         <div className="portfolio-apps">
@@ -84,7 +84,7 @@ const Portfolio = () => {
             className={ux && 'active-portfolio'}
             onClick={() => toggleButton (1)}
           >
-            UX/UI Designs
+             Designs
           </div>
           <div
             style={{

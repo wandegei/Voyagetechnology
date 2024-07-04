@@ -14,7 +14,7 @@ const BlogBanner = () => {
                         <h4>Voyage Blogs</h4>
                         <p>
                         Our experts share insights on software development, digital content creation, Cloud computing, 
-                        UI/UX design, Mobile App, websites, Artificial Intelligence, digital transformation and more. 
+                        design, Mobile App, websites, Artificial Intelligence, digital transformation and more. 
                         Stay informed and ahead of the competition. Explore our blog for the latest tech trends.
                         </p>
 

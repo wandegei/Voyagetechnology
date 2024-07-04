@@ -19,27 +19,27 @@ const MobileMenu = () => {
       return;
     }
 
-    if (status == 2) {
+    if (status === 2) {
       window.open ('', '_blank').focus ();
       return;
     }
-    if (status == 3) {
+    if (status === 3) {
       window
         .open ('', '_blank')
         .focus ();
       return;
     }
-    if (status == 4) {
+    if (status === 4) {
       window.open ('', '_blank').focus ();
       return;
     }
-    if (status == 5) {
+    if (status === 5) {
       window.location.href = 'info@voyagetechi.com';
 
       return;
     }
 
-    if (status == 6) {
+    if (status === 6) {
       window.location.href = '';
     }
   };
@@ -131,7 +131,7 @@ const MobileMenu = () => {
               </span>
             </a>
 
-            <a
+            {/* <a
               href="/#"
               className="nav-link text-truncate font-weight-bold text-dark"
               onClick={mobilemenuclose}
@@ -141,7 +141,7 @@ const MobileMenu = () => {
               <span className="float-end">
                 <img src={Vector} alt="vector" />
               </span>
-            </a>
+            </a> */}
 
             <a
               href="/contact"

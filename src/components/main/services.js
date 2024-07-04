@@ -21,7 +21,7 @@ const Services = () => {
         What we <span className="color-common-orange">do</span>
       </div>
       <div className="service-content">
-        We offer digital services to help businesses establish and strengthen their online presence. From web development to mobile app development, UI/UX design to SEO and web maintenance, we have you covered. Our team of global experts works closely with clients to understand their unique needs and goals and deliver customized solutions that drive success.
+        We offer digital services to help businesses establish and strengthen their online presence. From web development to mobile app development, design to SEO and web maintenance, we have you covered. Our team of global experts works closely with clients to understand their unique needs and goals and deliver customized solutions that drive success.
         {' '}
       </div>
 
@@ -148,9 +148,9 @@ const Services = () => {
               <img src={ui} className="icon-service-new" alt="service icon" />
             </div>
 
-            <div className="service-name-new">
+            {/* <div className="service-name-new">
               UX/UI
-            </div>
+            </div> */}
 
             <div className="service-name-new-below">
               DESIGN
@@ -204,7 +204,7 @@ const Services = () => {
               <img src={ui} className="icon-service" alt="service icon" />
               {' '}
               <h4 className="header-serv header-service1">
-                UI/UX Design
+                Design
               </h4>
             </div>
             <p className="card-text  card-text-service card-text-service1">

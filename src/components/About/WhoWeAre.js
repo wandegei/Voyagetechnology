@@ -10,7 +10,7 @@ const WhoWeare = () => {
                     <div className='digital-el'>
                         <h4 className='about-section-title'>WHO WE ARE</h4>
                         <h2 className='middle-title'>Digital <span>Global</span> Local Needs  </h2>
-                        <p style={{marginBottom:'4rem', textAlign:"justify"}}>We are a full-service digital enterprise highly specialized in Web Development, Mobile App Development, UI/UX design, and SEO services for empowering businesses to succeed. Our global team of skilled professionals collaborate to delivers effective solutions digital solutions that supersedes the expectations our clients.</p>
+                        <p style={{marginBottom:'4rem', textAlign:"justify"}}>We are a full-service digital enterprise highly specialized in Web Development, Mobile App Development, design, and SEO services for empowering businesses to succeed. Our global team of skilled professionals collaborate to delivers effective solutions digital solutions that supersedes the expectations our clients.</p>
                     </div>
                     <img src={womanonphone} alt='woman talking on phone' className='abt-img whowe-img' />
                 </div>

@@ -20,16 +20,19 @@ const Contents = () =>{
                     <h2>
                        <span>Mobile </span>App Development
                     </h2>
-                    <div className="text">
-                        <p>
-                            VOYAGE, specializes in developing customized mobile applications that prioritize user experience, 
-                            security, and performance for both iOS and Android platforms. Our team of experts creates intuitive 
-                            and engaging apps that cater to your specific business needs. From ideation to deployment, we provide 
-                            end-to-end solutions to bring your mobile app vision to life. Trust us to deliver high-quality, functional, 
-                            and innovative apps that help your business stay ahead of the competition. Contact us today to learn 
-                            more about our mobile app development services.
-                        </p>
-                    </div>
+<div className="text">
+  <p>
+    At <bold>VOYAGE,</bold> we specialize in crafting bespoke mobile applications that prioritize exceptional design, 
+    robust security, and optimal performance across iOS and Android platforms. Our dedicated team of experts designs 
+    intuitive and captivating apps tailored to meet your unique business requirements. From initial concept to final deployment, 
+    we offer comprehensive solutions to bring your mobile app vision to fruition. Count on us to deliver top-tier, functional, 
+    and innovative applications that empower your business to stay ahead of the competition. Contact us today to discover more 
+    about our comprehensive mobile app development services.
+  </p>
+
+
+</div>
+
                     <div>
                         <button className="btn" onClick={navigatetogetquote} >Get Quote</button>
                     </div>
@@ -70,17 +73,17 @@ const Contents = () =>{
             </div>        
             <div className="row mx-4 mt-4" id="ui-ux">
                 <div className="col-md-6">
-                    <h2>
+                    {/* <h2>
                        <span>UI/UX</span> Design
-                    </h2>
+                    </h2> */}
                     <div className="text">
                         <p>
                             At VOYAGE, we specialize in creating visually stunning and user-friendly digital experiences through 
-                            our UI/UX design services. Our team of experts works with clients to understand their brand vision 
+                            our design services. Our team of experts works with clients to understand their brand vision 
                             and user needs, conducting thorough research and analysis to create intuitive interfaces that enhance 
                             user engagement and drive conversions. Whether designing for websites, mobile apps, or products, we 
                             prioritize user experience and aim to create engaging experiences that exceed expectations. Let us 
-                            help bring your digital vision to life with our UI/UX design services.
+                            help bring your digital vision to life with our design services.
                         </p>
                     </div>
                     <div>
@@ -108,11 +111,11 @@ const Contents = () =>{
                     <div className="text">
                         <p>
                             At VOYAGE, we specialize in creating visually stunning and user-friendly digital experiences 
-                            through our UI/UX design services. Our team of experts works with clients to understand their 
+                            through our design services. Our team of experts works with clients to understand their 
                             brand vision and user needs, conducting thorough research and analysis to create intuitive 
                             interfaces that enhance user engagement and drive conversions. Whether designing for websites, 
                             mobile apps, or products, we prioritize user experience and aim to create engaging experiences 
-                            that exceed expectations. Let us help bring your digital vision to life with our UI/UX design services.
+                            that exceed expectations. Let us help bring your digital vision to life with our design services.
                         </p>
                     </div>
                     <div>

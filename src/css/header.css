@@ -99,6 +99,14 @@
     padding-bottom: 77%;
   }
 
+  @media only screen and (max-width: 600px) {
+    .navbar .navbar-brand img{
+        width: 196% !important;
+        height: 339%;
+    }
+  }
+  
+
 .navbar .mobile {
     display: none;
 }
@@ -213,6 +221,7 @@ button.get-btn {
     }
     .mobile-toggle-btn {
         display: block;
+        margin-left: 57%;
         
     }
 }
