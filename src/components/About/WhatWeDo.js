@@ -1,5 +1,4 @@
 import React from 'react';
-import { Container } from 'react-bootstrap';
 import wedo from '../../images/wedo.png'
 
 const WhatWeDo = () => {

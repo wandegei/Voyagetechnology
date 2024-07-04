@@ -10,7 +10,7 @@ import ToastMessage from '../common/toastMessage';
 import constantsItem from '../utils/constant';
 
 const ContactForm = () => {
-  const {register, handleSubmit, watch, formState: {errors}} = useForm ();
+  const {register, handleSubmit, formState: {errors}} = useForm ();
 
   const [submit, setSubmit] = useState (false);
 
@@ -60,16 +60,17 @@ const ContactForm = () => {
           </p>
           <div className="icon-cont">
             <div className="icon-div">
-              <a href="mailto:info@voyagetechi.com" target="_blank">
+              <a href="mailto:info@voyagetechi.com" target="_blank" rel="noopener noreferrer">
                 <img src={email} alt="email" className="social-icon" />
                 <span>info@voyagetechi.com</span>
               </a>
             </div>
             <div className="icon-div">
-              <a href="" target="_blank">
+            <a href="" target="_blank" rel="noopener noreferrer">
                 <img src={whatsapp} alt="WhatsApp" className="social-icon" />
                 <span>+256778304699</span>
-              </a>
+            </a>
+
             </div>
             <div className="icon-div">
               
