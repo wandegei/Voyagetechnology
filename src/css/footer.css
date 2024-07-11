@@ -73,7 +73,7 @@
 }
 
 .footer {
-    background-color: #45A0A0;
+    background-color: #8A9393;
 }
 
 .footer .footer-logo {
@@ -83,7 +83,7 @@
 }
 
 .footer .footer-logo img {
-    width: 70%;
+    width: 74%;
     height: 100%;
     
 }
@@ -91,7 +91,7 @@
 .footer .heading {
     padding-top: 10%;
     padding-bottom: 2%;
-    color: #a0f1ea;
+    color: #1A3660;
     font-size: 18px;
     font-weight: 500;
 }
@@ -128,7 +128,7 @@
 
 .footer .footer-card {
     padding: 5% 0;
-    background-color: #45A0A0;
+    background-color: #8A9393;;
 }
 
 .footer .sect {

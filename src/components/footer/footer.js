@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "../../css/footer.css";
-import Logob from "../../images/footervoyage.png";
+import Logob from "../../images/footerxxz.png";
 import top from "../../images/top-arrow.svg";
 import Twitter from "../../images/icons/footer/twiter.svg";
 import Linkedin from "../../images/icons/footer/link.svg";
