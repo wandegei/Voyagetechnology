@@ -39,8 +39,6 @@ const Slide = () => {
           alt={slide.alt}
           className="slide-image"
           key={index}
-          width="600" // Set desired width
-          height="400" // Set desired height
         />
       );
     } else if (slide.type === 'video') {
@@ -50,8 +48,6 @@ const Slide = () => {
           className="slide-video"
           key={index}
           muted
-          width="600" // Set desired width
-          height="400" // Set desired height
         >
           <source src={slide.src} type="video/mp4" />
           Your browser does not support the video tag.
@@ -63,7 +59,18 @@ const Slide = () => {
 
   return (
     <div className="slide-container">
-      <div className="slide-content">{renderSlide(slides[currentSlide], currentSlide)}</div>
+      <div
+        className="slide-content"
+        style={{
+          transform: `translateX(-${currentSlide * 100}%)`,
+        }}
+      >
+        {slides.map((slide, index) => (
+          <div className="slide" key={index}>
+            {renderSlide(slide, index)}
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
