@@ -17,10 +17,10 @@ const Slide = () => {
     if (slides[currentSlide].type === 'video') {
       if (currentRef) {
         currentRef.play();
-        timer = setTimeout(handleNextSlide, (currentRef.duration || 3) * 1000); // Further reduced fallback duration
+        timer = setTimeout(handleNextSlide, 2000); // Adjusted duration for video slides (2 seconds)
       }
     } else {
-      timer = setTimeout(handleNextSlide, (slides[currentSlide].duration || 2) * 1000); // Further reduced duration for non-video slides
+      timer = setTimeout(handleNextSlide, 1500); // Adjusted duration for non-video slides (1.5 seconds)
     }
 
     return () => {
@@ -64,20 +64,6 @@ const Slide = () => {
   return (
     <div className="slide-container">
       <div className="slide-content">{renderSlide(slides[currentSlide], currentSlide)}</div>
-      {/* <button
-        className="slide-button prev-button"
-        onClick={() => setCurrentSlide((prevSlide) => (prevSlide - 1 + slides.length) % slides.length)}
-        aria-label="Previous Slide"
-      >
-        Previous
-      </button> */}
-      {/* <button
-        className="slide-button next-button"
-        onClick={() => setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length)}
-        aria-label="Next Slide"
-      >
-        Next
-      </button> */}
     </div>
   );
 };

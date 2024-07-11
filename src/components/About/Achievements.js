@@ -28,7 +28,7 @@ const Achievements = () => {
                 <Carousel.Item>
                     <div className='achieve-caption'>
                         <div>
-                            <h3 className='ach-title'>Designs</h3>
+                            <h3 className='ach-title'>Branding and  Designs</h3>
                             <ul className='achieve-ul'>
                                 <li>User research/testing for 30+ web and mobile Apps</li>
                                 <li>100+ custom interfaces designed</li>

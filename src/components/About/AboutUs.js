@@ -23,7 +23,7 @@ const AboutUs = () => {
         <title>About us</title>
         <meta
           name="About Voyage"
-          content="Voyage is a tech business specializing in Design, web development, mobile app development, and web/app management. Our global team of experts also offers top-notch SEO services and web/app copywriting. With a global perspective and local focus, we prioritize usability, reliability, and innovation to create engaging digital experiences. Let us help you fuel your digital growth and achieve your online potential. Get in touch with us today."
+          content="Voyage is a tech business specializing in Branding and  Designs, web development, mobile app development, and web/app management. Our global team of experts also offers top-notch SEO services and web/app copywriting. With a global perspective and local focus, we prioritize usability, reliability, and innovation to create engaging digital experiences. Let us help you fuel your digital growth and achieve your online potential. Get in touch with us today."
         />
         <link rel="canonical" href="" />
       </Helmet>

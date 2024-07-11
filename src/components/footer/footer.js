@@ -157,7 +157,7 @@ const Footer = () => {
                                         <img src={Logob} alt="" />
                                     </div>
 
-                                    <p className="card-text">Voyage is a tech enterprise that provides world-class services in design, web/app development, and management. We utilize global teams and latest technologies to deliver efficient solutions to local problems.</p>
+                                    <p className="card-text">Voyage is a tech enterprise that provides world-class services in Branding and  Designs, web/app development, and management. We utilize global teams and latest technologies to deliver efficient solutions to local problems.</p>
                                 </div>
                             </div>
                             <div className=" sect sect2">
@@ -173,7 +173,7 @@ const Footer = () => {
                             <div className=" sect sect3">
                                 <div onClick={toggleservice} className="heading" style={{marginTop:-8}}>Our Services <span className="angleright"><img src={Vector} alt="angle right" /></span></div>
                                 <ul className={`box ${service ? 'card-text mobile-toggle ' : 'card-text'}`}>
-                                    <li onClick={()=>handleServiceRedirect(1)}><a href="/service" className="anchor_tag"> Design</a></li>
+                                    <li onClick={()=>handleServiceRedirect(1)}><a href="/service" className="anchor_tag"> Branding and  Designs</a></li>
                                     <li onClick={()=>handleServiceRedirect(2)} ><a href="/service" className="anchor_tag">Web Development</a></li>
                                     <li onClick={()=>handleServiceRedirect(3)}><a href="/service" className="anchor_tag">Mobile App Development</a></li>
                                     <li onClick={()=>handleServiceRedirect(4)}><a href="/service" className="anchor_tag">Web/Mobile Management</a></li>
